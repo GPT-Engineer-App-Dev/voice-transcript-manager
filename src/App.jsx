@@ -5,7 +5,8 @@ import Dashboard from "./pages/Dashboard.jsx";
 import Upload from "./pages/Upload.jsx";
 import Transcripts from "./pages/Transcripts.jsx";
 import TranscriptDetail from "./pages/TranscriptDetail.jsx";
-
+import { TooltipProvider } from "@/components/ui/tooltip";
+import { Toaster } from "sonner";
 import SharedLayout from "./components/layouts/sidebar.jsx";
 
 const queryClient = new QueryClient();
